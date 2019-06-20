@@ -1,0 +1,53 @@
+.listingcard {
+  margin-bottom: 1rem;
+  height: 8rem;
+  background-color: var(--white);
+  color: var(--dark);
+  border: 0.5px solid #d0d0d0;
+  border-radius: 0.5rem;
+  width: 49%;
+}
+
+.listingcard:hover {
+  color: var(--dark);
+  text-decoration: none;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+}
+
+.listingcard-image {
+  width: 10rem;
+  height: 100%;
+  border-radius: 0.5rem 0 0 0.5rem;
+  object-fit: cover;
+}
+
+.listingcard-image-text {
+  position: relative;
+  height: 1.8rem;
+  bottom: 1.8rem;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 0 0 0 0.5rem;
+}
+
+.listingcard-image-text p {
+  position: relative;
+  left: 0.3rem;
+  font-size: 1.2rem;
+  color: var(--white);
+}
+
+.listingcard-type {
+  text-transform: uppercase;
+  color: var(--secondary);
+}
+
+.listingcard-title {
+  line-height: 10px;
+  font-size: 1.4rem;
+  color: var(--black);
+}
+
+.listingcard-price {
+  font-size: 1.2rem;
+  color: var(--secondary);
+}
